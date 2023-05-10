@@ -1,8 +1,7 @@
 #include <Arduino.h>
 #include "SSLClient.h"
 
-// #define TINY_GSM_MODEM_SIM7600
-#define TINY_GSM_MODEM_SIM800
+#define TINY_GSM_MODEM_SIM7600
 #define TINY_GSM_RX_BUFFER 1024
 #include <TinyGsmClient.h>
 #include "PubSubClient.h"
