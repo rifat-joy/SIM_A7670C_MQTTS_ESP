@@ -33,7 +33,7 @@ PubSubClient mqtt(secureclient);
 #define MODEM_TX 26
 #define MODEM_RX 27
 
-const char MQTT_HOST[] = "prohorii.vertical-innovations.com";
+const char MQTT_HOST[] = "********";
 const char topic_publish[] = "SIM7670C";
 const char topic_subscribe[] = "server";
 
